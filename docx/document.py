@@ -19,12 +19,19 @@ class Document(ElementProxy):
     """
 
     __slots__ = ('_part', '__body')
+    __count__ = 0
+    
+    def count_Letter(self, text=''):
+        self.__count__ += text.__len__()
+
+    def get_countLetter(self):
+        return self.__count__
 
     def __init__(self, element, part):
         super(Document, self).__init__(element)
         self._part = part
         self.__body = None
-
+    
     def add_heading(self, text="", level=1):
         """Return a heading paragraph newly added to the end of the document.
 
@@ -36,6 +43,8 @@ class Document(ElementProxy):
         if not 0 <= level <= 9:
             raise ValueError("level must be in range 0-9, got %d" % level)
         style = "Title" if level == 0 else "Heading %d" % level
+        # 추가한 부분
+        self.count_Letter(text)
         return self.add_paragraph(text, style)
 
     def add_page_break(self):
@@ -53,6 +62,8 @@ class Document(ElementProxy):
         return (``\\r``) characters, each of which is converted to a line
         break.
         """
+        #추가한 부분
+        self.count_Letter(text)
         return self._body.add_paragraph(text, style)
 
     def add_picture(self, image_path_or_stream, width=None, height=None):
