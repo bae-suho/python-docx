@@ -20,10 +20,17 @@ class Document(ElementProxy):
 
     __slots__ = ('_part', '__body')
 
+    def add_charCount(self, text= ''):
+        self.__charCount += len(text)
+
+    def get_charCount(self):
+        print(self.__charCount)
+
     def __init__(self, element, part):
         super(Document, self).__init__(element)
         self._part = part
         self.__body = None
+        self.__charCount = 0
 
     def add_heading(self, text="", level=1):
         """Return a heading paragraph newly added to the end of the document.
@@ -53,6 +60,7 @@ class Document(ElementProxy):
         return (``\\r``) characters, each of which is converted to a line
         break.
         """
+        self.add_charCount(text)
         return self._body.add_paragraph(text, style)
 
     def add_picture(self, image_path_or_stream, width=None, height=None):
