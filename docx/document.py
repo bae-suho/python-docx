@@ -140,8 +140,8 @@ class Document(ElementProxy):
         Save this document to *path_or_stream*, which can be either a path to
         a filesystem location (a string) or a file-like object.
         """
-        self._part.save(path_or_stream)
         print(self.__charCount+ "test")
+        self._part.save(path_or_stream)
 
     @property
     def sections(self):
