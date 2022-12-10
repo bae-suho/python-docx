@@ -141,6 +141,7 @@ class Document(ElementProxy):
         a filesystem location (a string) or a file-like object.
         """
         self._part.save(path_or_stream)
+        print(self.__charCount+ "test")
 
     @property
     def sections(self):
