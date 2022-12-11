@@ -8,12 +8,12 @@ from __future__ import absolute_import, print_function, unicode_literals
 
 import pytest
 
-from docx.compat import Unicode
-from docx.oxml import parse_xml, register_element_cls
-from docx.oxml.exceptions import InvalidXmlError
-from docx.oxml.ns import qn
-from docx.oxml.simpletypes import BaseIntType
-from docx.oxml.xmlchemy import (
+from docxxx.compat import Unicode
+from docxxx.oxml import parse_xml, register_element_cls
+from docxxx.oxml.exceptions import InvalidXmlError
+from docxxx.oxml.ns import qn
+from docxxx.oxml.simpletypes import BaseIntType
+from docxxx.oxml.xmlchemy import (
     BaseOxmlElement, Choice, serialize_for_reading, OneOrMore, OneAndOnlyOne,
     OptionalAttribute, RequiredAttribute, ZeroOrMore, ZeroOrOne,
     ZeroOrOneChoice, XmlString

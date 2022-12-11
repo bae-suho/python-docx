@@ -6,18 +6,18 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.enum.style import WD_STYLE_TYPE
-from docx.opc.constants import RELATIONSHIP_TYPE as RT
-from docx.opc.coreprops import CoreProperties
-from docx.package import Package
-from docx.parts.document import DocumentPart
-from docx.parts.hdrftr import FooterPart, HeaderPart
-from docx.parts.numbering import NumberingPart
-from docx.parts.settings import SettingsPart
-from docx.parts.styles import StylesPart
-from docx.settings import Settings
-from docx.styles.style import BaseStyle
-from docx.styles.styles import Styles
+from docxxx.enum.style import WD_STYLE_TYPE
+from docxxx.opc.constants import RELATIONSHIP_TYPE as RT
+from docxxx.opc.coreprops import CoreProperties
+from docxxx.package import Package
+from docxxx.parts.document import DocumentPart
+from docxxx.parts.hdrftr import FooterPart, HeaderPart
+from docxxx.parts.numbering import NumberingPart
+from docxxx.parts.settings import SettingsPart
+from docxxx.parts.styles import StylesPart
+from docxxx.settings import Settings
+from docxxx.styles.style import BaseStyle
+from docxxx.styles.styles import Styles
 
 from ..oxml.parts.unitdata.document import a_body, a_document
 from ..unitutil.mock import class_mock, instance_mock, method_mock, property_mock

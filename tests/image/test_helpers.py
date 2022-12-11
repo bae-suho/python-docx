@@ -8,9 +8,9 @@ from __future__ import absolute_import, print_function
 
 import pytest
 
-from docx.compat import BytesIO
-from docx.image.exceptions import UnexpectedEndOfFileError
-from docx.image.helpers import BIG_ENDIAN, LITTLE_ENDIAN, StreamReader
+from docxxx.compat import BytesIO
+from docxxx.image.exceptions import UnexpectedEndOfFileError
+from docxxx.image.helpers import BIG_ENDIAN, LITTLE_ENDIAN, StreamReader
 
 
 class DescribeStreamReader(object):

@@ -6,10 +6,10 @@ from __future__ import absolute_import, print_function
 
 import pytest
 
-from docx.compat import BytesIO
-from docx.image.constants import MIME_TYPE, TIFF_TAG
-from docx.image.helpers import BIG_ENDIAN, LITTLE_ENDIAN, StreamReader
-from docx.image.tiff import (
+from docxxx.compat import BytesIO
+from docxxx.image.constants import MIME_TYPE, TIFF_TAG
+from docxxx.image.helpers import BIG_ENDIAN, LITTLE_ENDIAN, StreamReader
+from docxxx.image.tiff import (
     _AsciiIfdEntry,
     _IfdEntries,
     _IfdEntry,

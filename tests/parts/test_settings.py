@@ -6,12 +6,12 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.opc.constants import CONTENT_TYPE as CT
-from docx.opc.package import OpcPackage
-from docx.opc.part import PartFactory
-from docx.package import Package
-from docx.parts.settings import SettingsPart
-from docx.settings import Settings
+from docxxx.opc.constants import CONTENT_TYPE as CT
+from docxxx.opc.package import OpcPackage
+from docxxx.opc.part import PartFactory
+from docxxx.package import Package
+from docxxx.parts.settings import SettingsPart
+from docxxx.settings import Settings
 
 from ..unitutil.cxml import element
 from ..unitutil.mock import class_mock, instance_mock, method_mock

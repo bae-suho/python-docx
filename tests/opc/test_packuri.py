@@ -6,7 +6,7 @@ Test suite for the docx.opc.packuri module
 
 import pytest
 
-from docx.opc.packuri import PackURI
+from docxxx.opc.packuri import PackURI
 
 
 class DescribePackURI(object):

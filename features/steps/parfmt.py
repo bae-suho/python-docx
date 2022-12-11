@@ -10,10 +10,10 @@ from __future__ import (
 
 from behave import given, then, when
 
-from docx import Document
-from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
-from docx.shared import Pt
-from docx.text.tabstops import TabStops
+from docxxx import Document
+from docxxx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
+from docxxx.shared import Pt
+from docxxx.text.tabstops import TabStops
 
 from helpers import test_docx
 

@@ -4,12 +4,12 @@
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-from docx.enum.style import WD_STYLE_TYPE
-from docx.enum.text import WD_BREAK, WD_UNDERLINE
-from docx.parts.document import DocumentPart
-from docx.shape import InlineShape
-from docx.text.font import Font
-from docx.text.run import Run
+from docxxx.enum.style import WD_STYLE_TYPE
+from docxxx.enum.text import WD_BREAK, WD_UNDERLINE
+from docxxx.parts.document import DocumentPart
+from docxxx.shape import InlineShape
+from docxxx.text.font import Font
+from docxxx.text.run import Run
 
 import pytest
 

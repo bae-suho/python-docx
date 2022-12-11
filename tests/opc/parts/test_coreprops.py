@@ -12,9 +12,9 @@ from datetime import datetime, timedelta
 
 import pytest
 
-from docx.opc.coreprops import CoreProperties
-from docx.opc.parts.coreprops import CorePropertiesPart
-from docx.oxml.coreprops import CT_CoreProperties
+from docxxx.opc.coreprops import CoreProperties
+from docxxx.opc.parts.coreprops import CorePropertiesPart
+from docxxx.oxml.coreprops import CT_CoreProperties
 
 from ...unitutil.mock import class_mock, instance_mock
 

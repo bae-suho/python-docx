@@ -6,8 +6,8 @@ Step implementations for block content containers
 
 from behave import given, then, when
 
-from docx import Document
-from docx.table import Table
+from docxxx import Document
+from docxxx.table import Table
 
 from helpers import test_docx
 

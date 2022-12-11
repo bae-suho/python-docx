@@ -6,11 +6,11 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.enum.style import WD_STYLE_TYPE
-from docx.oxml.styles import CT_Style, CT_Styles
-from docx.styles.latent import LatentStyles
-from docx.styles.style import BaseStyle
-from docx.styles.styles import Styles
+from docxxx.enum.style import WD_STYLE_TYPE
+from docxxx.oxml.styles import CT_Style, CT_Styles
+from docxxx.styles.latent import LatentStyles
+from docxxx.styles.style import BaseStyle
+from docxxx.styles.styles import Styles
 
 from ..unitutil.cxml import element
 from ..unitutil.mock import (

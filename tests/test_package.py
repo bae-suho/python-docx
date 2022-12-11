@@ -6,10 +6,10 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.image.image import Image
-from docx.opc.packuri import PackURI
-from docx.package import ImageParts, Package
-from docx.parts.image import ImagePart
+from docxxx.image.image import Image
+from docxxx.opc.packuri import PackURI
+from docxxx.package import ImageParts, Package
+from docxxx.parts.image import ImagePart
 
 from .unitutil.file import docx_path
 from .unitutil.mock import class_mock, instance_mock, method_mock, property_mock

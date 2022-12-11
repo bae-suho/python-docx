@@ -6,10 +6,10 @@ Step implementations for paragraph-related features
 
 from behave import given, then, when
 
-from docx import Document
-from docx.enum.text import WD_TAB_ALIGNMENT, WD_TAB_LEADER
-from docx.shared import Inches
-from docx.text.tabstops import TabStop
+from docxxx import Document
+from docxxx.enum.text import WD_TAB_ALIGNMENT, WD_TAB_LEADER
+from docxxx.shared import Inches
+from docxxx.text.tabstops import TabStop
 
 from helpers import test_docx
 

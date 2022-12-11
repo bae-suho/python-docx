@@ -10,12 +10,12 @@ import hashlib
 
 from behave import given, then, when
 
-from docx import Document
-from docx.enum.text import WD_BREAK, WD_UNDERLINE
-from docx.oxml import parse_xml
-from docx.oxml.ns import nsdecls, qn
-from docx.text.font import Font
-from docx.text.run import Run
+from docxxx import Document
+from docxxx.enum.text import WD_BREAK, WD_UNDERLINE
+from docxxx.oxml import parse_xml
+from docxxx.oxml.ns import nsdecls, qn
+from docxxx.text.font import Font
+from docxxx.text.run import Run
 
 from helpers import test_docx, test_file, test_text
 

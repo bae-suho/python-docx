@@ -10,13 +10,13 @@ from __future__ import (
 
 from behave import given, then, when
 
-from docx import Document
-from docx.enum.table import WD_ALIGN_VERTICAL  # noqa
-from docx.enum.table import (
+from docxxx import Document
+from docxxx.enum.table import WD_ALIGN_VERTICAL  # noqa
+from docxxx.enum.table import (
     WD_ROW_HEIGHT_RULE, WD_TABLE_ALIGNMENT, WD_TABLE_DIRECTION
 )
-from docx.shared import Inches
-from docx.table import _Column, _Columns, _Row, _Rows
+from docxxx.shared import Inches
+from docxxx.table import _Column, _Columns, _Row, _Rows
 
 from helpers import test_docx
 

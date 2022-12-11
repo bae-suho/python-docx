@@ -6,12 +6,12 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.image.image import Image
-from docx.opc.constants import CONTENT_TYPE as CT, RELATIONSHIP_TYPE as RT
-from docx.opc.packuri import PackURI
-from docx.opc.part import PartFactory
-from docx.package import Package
-from docx.parts.image import ImagePart
+from docxxx.image.image import Image
+from docxxx.opc.constants import CONTENT_TYPE as CT, RELATIONSHIP_TYPE as RT
+from docxxx.opc.packuri import PackURI
+from docxxx.opc.part import PartFactory
+from docxxx.package import Package
+from docxxx.parts.image import ImagePart
 
 from ..unitutil.file import test_file
 from ..unitutil.mock import ANY, initializer_mock, instance_mock, method_mock

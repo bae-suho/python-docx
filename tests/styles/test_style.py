@@ -10,13 +10,13 @@ from __future__ import (
 
 import pytest
 
-from docx.enum.style import WD_STYLE_TYPE
-from docx.styles.style import (
+from docxxx.enum.style import WD_STYLE_TYPE
+from docxxx.styles.style import (
     BaseStyle, _CharacterStyle, _ParagraphStyle, _NumberingStyle,
     StyleFactory, _TableStyle
 )
-from docx.text.font import Font
-from docx.text.parfmt import ParagraphFormat
+from docxxx.text.font import Font
+from docxxx.text.parfmt import ParagraphFormat
 
 from ..unitutil.cxml import element, xml
 from ..unitutil.mock import call, class_mock, function_mock, instance_mock

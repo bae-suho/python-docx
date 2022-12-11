@@ -6,16 +6,16 @@ from __future__ import absolute_import, print_function, unicode_literals
 
 import pytest
 
-from docx.compat import BytesIO
-from docx.image.bmp import Bmp
-from docx.image.exceptions import UnrecognizedImageError
-from docx.image.gif import Gif
-from docx.image.image import BaseImageHeader, Image, _ImageHeaderFactory
-from docx.image.jpeg import Exif, Jfif
-from docx.image.png import Png
-from docx.image.tiff import Tiff
-from docx.opc.constants import CONTENT_TYPE as CT
-from docx.shared import Emu, Length
+from docxxx.compat import BytesIO
+from docxxx.image.bmp import Bmp
+from docxxx.image.exceptions import UnrecognizedImageError
+from docxxx.image.gif import Gif
+from docxxx.image.image import BaseImageHeader, Image, _ImageHeaderFactory
+from docxxx.image.jpeg import Exif, Jfif
+from docxxx.image.png import Png
+from docxxx.image.tiff import Tiff
+from docxxx.opc.constants import CONTENT_TYPE as CT
+from docxxx.shared import Emu, Length
 
 from ..unitutil.file import test_file
 from ..unitutil.mock import (

@@ -10,10 +10,10 @@ from __future__ import (
 
 import pytest
 
-from docx.opc.oxml import CT_Relationships
-from docx.opc.packuri import PackURI
-from docx.opc.part import Part
-from docx.opc.rel import _Relationship, Relationships
+from docxxx.opc.oxml import CT_Relationships
+from docxxx.opc.packuri import PackURI
+from docxxx.opc.part import Part
+from docxxx.opc.rel import _Relationship, Relationships
 
 from ..unitutil.mock import (
     call, class_mock, instance_mock, Mock, patch, PropertyMock

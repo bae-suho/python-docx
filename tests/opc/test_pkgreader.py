@@ -6,10 +6,10 @@ from __future__ import absolute_import, print_function, unicode_literals
 
 import pytest
 
-from docx.opc.constants import CONTENT_TYPE as CT, RELATIONSHIP_TARGET_MODE as RTM
-from docx.opc.packuri import PackURI
-from docx.opc.phys_pkg import _ZipPkgReader
-from docx.opc.pkgreader import (
+from docxxx.opc.constants import CONTENT_TYPE as CT, RELATIONSHIP_TARGET_MODE as RTM
+from docxxx.opc.packuri import PackURI
+from docxxx.opc.phys_pkg import _ZipPkgReader
+from docxxx.opc.pkgreader import (
     _ContentTypeMap,
     PackageReader,
     _SerializedPart,

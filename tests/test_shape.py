@@ -8,10 +8,10 @@ from __future__ import absolute_import, print_function, unicode_literals
 
 import pytest
 
-from docx.enum.shape import WD_INLINE_SHAPE
-from docx.oxml.ns import nsmap
-from docx.shape import InlineShape, InlineShapes
-from docx.shared import Length
+from docxxx.enum.shape import WD_INLINE_SHAPE
+from docxxx.oxml.ns import nsmap
+from docxxx.shape import InlineShape, InlineShapes
+from docxxx.shared import Length
 
 from .oxml.unitdata.dml import (
     a_blip, a_blipFill, a_graphic, a_graphicData, a_pic, an_inline,

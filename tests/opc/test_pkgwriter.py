@@ -6,11 +6,11 @@ Test suite for opc.pkgwriter module
 
 import pytest
 
-from docx.opc.constants import CONTENT_TYPE as CT
-from docx.opc.packuri import PackURI
-from docx.opc.part import Part
-from docx.opc.phys_pkg import _ZipPkgWriter
-from docx.opc.pkgwriter import _ContentTypesItem, PackageWriter
+from docxxx.opc.constants import CONTENT_TYPE as CT
+from docxxx.opc.packuri import PackURI
+from docxxx.opc.part import Part
+from docxxx.opc.phys_pkg import _ZipPkgWriter
+from docxxx.opc.pkgwriter import _ContentTypesItem, PackageWriter
 
 from .unitdata.types import a_Default, a_Types, an_Override
 from ..unitutil.mock import (

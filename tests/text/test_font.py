@@ -8,10 +8,10 @@ from __future__ import (
     absolute_import, division, print_function, unicode_literals
 )
 
-from docx.dml.color import ColorFormat
-from docx.enum.text import WD_COLOR, WD_UNDERLINE
-from docx.shared import Pt
-from docx.text.font import Font
+from docxxx.dml.color import ColorFormat
+from docxxx.enum.text import WD_COLOR, WD_UNDERLINE
+from docxxx.shared import Pt
+from docxxx.text.font import Font
 
 import pytest
 

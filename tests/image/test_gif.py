@@ -6,9 +6,9 @@ from __future__ import absolute_import, print_function
 
 import pytest
 
-from docx.compat import BytesIO
-from docx.image.constants import MIME_TYPE
-from docx.image.gif import Gif
+from docxxx.compat import BytesIO
+from docxxx.image.constants import MIME_TYPE
+from docxxx.image.gif import Gif
 
 from ..unitutil.mock import ANY, initializer_mock
 

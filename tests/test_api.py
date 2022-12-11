@@ -10,10 +10,10 @@ from __future__ import (
 
 import pytest
 
-import docx
+import docxxx
 
-from docx.api import Document
-from docx.opc.constants import CONTENT_TYPE as CT
+from docxxx.api import Document
+from docxxx.opc.constants import CONTENT_TYPE as CT
 
 from .unitutil.mock import function_mock, instance_mock, class_mock
 
@@ -70,7 +70,7 @@ class DescribeDocument(object):
 
     @pytest.fixture
     def document_(self, request):
-        return instance_mock(request, docx.document.Document)
+        return instance_mock(request, docxxx.document.Document)
 
     @pytest.fixture
     def Package_(self, request):

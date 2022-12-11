@@ -8,10 +8,10 @@ from __future__ import absolute_import, print_function, unicode_literals
 
 from behave import given, then, when
 
-from docx import Document
-from docx.enum.section import WD_ORIENT, WD_SECTION
-from docx.section import Section
-from docx.shared import Inches
+from docxxx import Document
+from docxxx.enum.section import WD_ORIENT, WD_SECTION
+from docxxx.section import Section
+from docxxx.shared import Inches
 
 from helpers import test_docx
 

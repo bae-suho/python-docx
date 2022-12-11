@@ -6,11 +6,11 @@ Test data for relationship-related unit tests.
 
 from __future__ import absolute_import
 
-from docx.opc.constants import RELATIONSHIP_TYPE as RT
-from docx.opc.rel import Relationships
+from docxxx.opc.constants import RELATIONSHIP_TYPE as RT
+from docxxx.opc.rel import Relationships
 
-from docx.opc.constants import NAMESPACE as NS
-from docx.opc.oxml import parse_xml
+from docxxx.opc.constants import NAMESPACE as NS
+from docxxx.opc.oxml import parse_xml
 
 
 class BaseBuilder(object):

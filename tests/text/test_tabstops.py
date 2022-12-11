@@ -9,9 +9,9 @@ from __future__ import (
     absolute_import, division, print_function, unicode_literals
 )
 
-from docx.enum.text import WD_TAB_ALIGNMENT, WD_TAB_LEADER
-from docx.shared import Twips
-from docx.text.tabstops import TabStop, TabStops
+from docxxx.enum.text import WD_TAB_ALIGNMENT, WD_TAB_LEADER
+from docxxx.shared import Twips
+from docxxx.text.tabstops import TabStop, TabStops
 
 import pytest
 

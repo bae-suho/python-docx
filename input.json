@@ -1,0 +1,122 @@
+[
+  {
+    "Airport Name": "청주 국제공항",
+    "IATA": "CJJ",
+    "ICAO": "RKTU",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "청주"
+  },
+  {
+    "Airport Name": "제주 국제공항",
+    "IATA": "CJU",
+    "ICAO": "RKPC",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "제주"
+  },
+  {
+    "Airport Name": "김포 국제공항",
+    "IATA": "GMP",
+    "ICAO": "RKSS",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "서울"
+  },
+  {
+    "Airport Name": "사천 공항",
+    "IATA": "HIN",
+    "ICAO": "RKPS",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "사천"
+  },
+  {
+    "Airport Name": "인천 국제공항",
+    "IATA": "ICN",
+    "ICAO": "RKSI",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "인천"
+  },
+  {
+    "Airport Name": "포항 공항",
+    "IATA": "KPO",
+    "ICAO": "RKTH",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "포항공항"
+  },
+  {
+    "Airport Name": "군산 공항",
+    "IATA": "KUV",
+    "ICAO": "RKJK",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "군산"
+  },
+  {
+    "Airport Name": "광주 공항",
+    "IATA": "KWJ",
+    "ICAO": "RKJJ",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "광주"
+  },
+  {
+    "Airport Name": "무안 국제공항",
+    "IATA": "MWX",
+    "ICAO": "RKJB",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "무안"
+  },
+  {
+    "Airport Name": "김해 국제공항",
+    "IATA": "PUS",
+    "ICAO": "RKPK",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "부산"
+  },
+  {
+    "Airport Name": "여수 공항",
+    "IATA": "RSU",
+    "ICAO": "RKJY",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "여수"
+  },
+  {
+    "Airport Name": "대구 국제공항",
+    "IATA": "TAE",
+    "ICAO": "RKTN",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "대구"
+  },
+  {
+    "Airport Name": "울산 공항",
+    "IATA": "USN",
+    "ICAO": "RKPU",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "울산"
+  },
+  {
+    "Airport Name": "원주 공항",
+    "IATA": "WJU",
+    "ICAO": "RKNW",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "원주"
+  },
+  {
+    "Airport Name": "양양 국제공항",
+    "IATA": "YNY",
+    "ICAO": "RKNY",
+    "Region": "아시아",
+    "Country": "대한민국",
+    "City": "양양"
+  }
+]

@@ -6,10 +6,10 @@ from __future__ import absolute_import, print_function
 
 import pytest
 
-from docx.compat import BytesIO
-from docx.image.constants import JPEG_MARKER_CODE, MIME_TYPE
-from docx.image.helpers import BIG_ENDIAN, StreamReader
-from docx.image.jpeg import (
+from docxxx.compat import BytesIO
+from docxxx.image.constants import JPEG_MARKER_CODE, MIME_TYPE
+from docxxx.image.helpers import BIG_ENDIAN, StreamReader
+from docxxx.image.jpeg import (
     _App0Marker,
     _App1Marker,
     Exif,
@@ -22,7 +22,7 @@ from docx.image.jpeg import (
     _MarkerParser,
     _SofMarker,
 )
-from docx.image.tiff import Tiff
+from docxxx.image.tiff import Tiff
 
 from ..unitutil.mock import (
     ANY,

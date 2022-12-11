@@ -6,11 +6,11 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.enum.section import WD_HEADER_FOOTER, WD_ORIENT, WD_SECTION
-from docx.parts.document import DocumentPart
-from docx.parts.hdrftr import FooterPart, HeaderPart
-from docx.section import _BaseHeaderFooter, _Footer, _Header, Section, Sections
-from docx.shared import Inches
+from docxxx.enum.section import WD_HEADER_FOOTER, WD_ORIENT, WD_SECTION
+from docxxx.parts.document import DocumentPart
+from docxxx.parts.hdrftr import FooterPart, HeaderPart
+from docxxx.section import _BaseHeaderFooter, _Footer, _Header, Section, Sections
+from docxxx.shared import Inches
 
 from .unitutil.cxml import element, xml
 from .unitutil.mock import call, class_mock, instance_mock, method_mock, property_mock

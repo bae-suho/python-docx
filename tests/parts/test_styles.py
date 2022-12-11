@@ -8,11 +8,11 @@ from __future__ import absolute_import, print_function, unicode_literals
 
 import pytest
 
-from docx.opc.constants import CONTENT_TYPE as CT
-from docx.opc.package import OpcPackage
-from docx.oxml.styles import CT_Styles
-from docx.parts.styles import StylesPart
-from docx.styles.styles import Styles
+from docxxx.opc.constants import CONTENT_TYPE as CT
+from docxxx.opc.package import OpcPackage
+from docxxx.oxml.styles import CT_Styles
+from docxxx.parts.styles import StylesPart
+from docxxx.styles.styles import Styles
 
 from ..unitutil.mock import class_mock, instance_mock
 

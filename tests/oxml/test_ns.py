@@ -8,7 +8,7 @@ from __future__ import absolute_import, print_function, unicode_literals
 
 import pytest
 
-from docx.oxml.ns import NamespacePrefixedTag
+from docxxx.oxml.ns import NamespacePrefixedTag
 
 
 class DescribeNamespacePrefixedTag(object):

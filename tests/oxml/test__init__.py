@@ -10,11 +10,11 @@ import pytest
 
 from lxml import etree
 
-from docx.oxml import (
+from docxxx.oxml import (
     OxmlElement, oxml_parser, parse_xml, register_element_cls
 )
-from docx.oxml.ns import qn
-from docx.oxml.shared import BaseOxmlElement
+from docxxx.oxml.ns import qn
+from docxxx.oxml.shared import BaseOxmlElement
 
 
 class DescribeOxmlElement(object):

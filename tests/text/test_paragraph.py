@@ -4,14 +4,14 @@
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-from docx.enum.style import WD_STYLE_TYPE
-from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.oxml.text.paragraph import CT_P
-from docx.oxml.text.run import CT_R
-from docx.parts.document import DocumentPart
-from docx.text.paragraph import Paragraph
-from docx.text.parfmt import ParagraphFormat
-from docx.text.run import Run
+from docxxx.enum.style import WD_STYLE_TYPE
+from docxxx.enum.text import WD_ALIGN_PARAGRAPH
+from docxxx.oxml.text.paragraph import CT_P
+from docxxx.oxml.text.run import CT_R
+from docxxx.parts.document import DocumentPart
+from docxxx.text.paragraph import Paragraph
+from docxxx.text.parfmt import ParagraphFormat
+from docxxx.text.run import Run
 
 import pytest
 

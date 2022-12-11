@@ -6,10 +6,10 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.opc.constants import CONTENT_TYPE as CT, RELATIONSHIP_TYPE as RT
-from docx.opc.part import PartFactory
-from docx.package import Package
-from docx.parts.hdrftr import FooterPart, HeaderPart
+from docxxx.opc.constants import CONTENT_TYPE as CT, RELATIONSHIP_TYPE as RT
+from docxxx.opc.part import PartFactory
+from docxxx.package import Package
+from docxxx.parts.hdrftr import FooterPart, HeaderPart
 
 from ..unitutil.cxml import element
 from ..unitutil.mock import function_mock, initializer_mock, instance_mock, method_mock

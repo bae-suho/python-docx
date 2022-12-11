@@ -6,14 +6,14 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.opc.constants import RELATIONSHIP_TYPE as RT
-from docx.opc.coreprops import CoreProperties
-from docx.opc.package import OpcPackage, Unmarshaller
-from docx.opc.packuri import PACKAGE_URI, PackURI
-from docx.opc.part import Part
-from docx.opc.parts.coreprops import CorePropertiesPart
-from docx.opc.pkgreader import PackageReader
-from docx.opc.rel import _Relationship, Relationships
+from docxxx.opc.constants import RELATIONSHIP_TYPE as RT
+from docxxx.opc.coreprops import CoreProperties
+from docxxx.opc.package import OpcPackage, Unmarshaller
+from docxxx.opc.packuri import PACKAGE_URI, PackURI
+from docxxx.opc.part import Part
+from docxxx.opc.parts.coreprops import CorePropertiesPart
+from docxxx.opc.pkgreader import PackageReader
+from docxxx.opc.rel import _Relationship, Relationships
 
 from ..unitutil.mock import (
     call,

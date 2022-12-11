@@ -12,8 +12,8 @@ import pytest
 
 from datetime import datetime
 
-from docx.opc.coreprops import CoreProperties
-from docx.oxml import parse_xml
+from docxxx.opc.coreprops import CoreProperties
+from docxxx.oxml import parse_xml
 
 
 class DescribeCoreProperties(object):

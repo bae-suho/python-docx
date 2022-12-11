@@ -10,7 +10,7 @@ from __future__ import (
 
 import pytest
 
-from docx.styles.latent import _LatentStyle, LatentStyles
+from docxxx.styles.latent import _LatentStyle, LatentStyles
 
 from ..unitutil.cxml import element, xml
 

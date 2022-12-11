@@ -6,11 +6,11 @@ from __future__ import absolute_import, print_function
 
 import pytest
 
-from docx.compat import BytesIO
-from docx.image.constants import MIME_TYPE, PNG_CHUNK_TYPE
-from docx.image.exceptions import InvalidImageStreamError
-from docx.image.helpers import BIG_ENDIAN, StreamReader
-from docx.image.png import (
+from docxxx.compat import BytesIO
+from docxxx.image.constants import MIME_TYPE, PNG_CHUNK_TYPE
+from docxxx.image.exceptions import InvalidImageStreamError
+from docxxx.image.helpers import BIG_ENDIAN, StreamReader
+from docxxx.image.png import (
     _Chunk, _Chunks, _ChunkFactory, _ChunkParser, _IHDRChunk, _pHYsChunk,
     Png, _PngParser
 )

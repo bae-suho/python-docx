@@ -12,8 +12,8 @@ from datetime import datetime, timedelta
 
 from behave import given, then, when
 
-from docx import Document
-from docx.opc.coreprops import CoreProperties
+from docxxx import Document
+from docxxx.opc.coreprops import CoreProperties
 
 from helpers import test_docx
 

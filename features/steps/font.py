@@ -10,11 +10,11 @@ from __future__ import (
 
 from behave import given, then, when
 
-from docx import Document
-from docx.dml.color import ColorFormat
-from docx.enum.dml import MSO_COLOR_TYPE, MSO_THEME_COLOR
-from docx.enum.text import WD_COLOR_INDEX, WD_UNDERLINE
-from docx.shared import RGBColor
+from docxxx import Document
+from docxxx.dml.color import ColorFormat
+from docxxx.enum.dml import MSO_COLOR_TYPE, MSO_THEME_COLOR
+from docxxx.enum.text import WD_COLOR_INDEX, WD_UNDERLINE
+from docxxx.shared import RGBColor
 
 from helpers import test_docx
 

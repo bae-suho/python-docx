@@ -6,10 +6,10 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.blkcntnr import BlockItemContainer
-from docx.shared import Inches
-from docx.table import Table
-from docx.text.paragraph import Paragraph
+from docxxx.blkcntnr import BlockItemContainer
+from docxxx.shared import Inches
+from docxxx.table import Table
+from docxxx.text.paragraph import Paragraph
 
 from .unitutil.cxml import element, xml
 from .unitutil.file import snippet_seq

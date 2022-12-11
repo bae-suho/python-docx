@@ -9,10 +9,10 @@ from __future__ import (
     absolute_import, division, print_function, unicode_literals
 )
 
-from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
-from docx.shared import Pt
-from docx.text.parfmt import ParagraphFormat
-from docx.text.tabstops import TabStops
+from docxxx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
+from docxxx.shared import Pt
+from docxxx.text.parfmt import ParagraphFormat
+from docxxx.text.tabstops import TabStops
 
 import pytest
 

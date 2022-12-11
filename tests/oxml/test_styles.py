@@ -10,7 +10,7 @@ from __future__ import (
 
 import pytest
 
-from docx.enum.style import WD_STYLE_TYPE
+from docxxx.enum.style import WD_STYLE_TYPE
 
 from ..unitutil.cxml import element, xml
 

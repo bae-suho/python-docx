@@ -6,19 +6,19 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.document import _Body, Document
-from docx.enum.section import WD_SECTION
-from docx.enum.text import WD_BREAK
-from docx.opc.coreprops import CoreProperties
-from docx.parts.document import DocumentPart
-from docx.section import Section, Sections
-from docx.settings import Settings
-from docx.shape import InlineShape, InlineShapes
-from docx.shared import Length
-from docx.styles.styles import Styles
-from docx.table import Table
-from docx.text.paragraph import Paragraph
-from docx.text.run import Run
+from docxxx.document import _Body, Document
+from docxxx.enum.section import WD_SECTION
+from docxxx.enum.text import WD_BREAK
+from docxxx.opc.coreprops import CoreProperties
+from docxxx.parts.document import DocumentPart
+from docxxx.section import Section, Sections
+from docxxx.settings import Settings
+from docxxx.shape import InlineShape, InlineShapes
+from docxxx.shared import Length
+from docxxx.styles.styles import Styles
+from docxxx.table import Table
+from docxxx.text.paragraph import Paragraph
+from docxxx.text.run import Run
 
 from .unitutil.cxml import element, xml
 from .unitutil.mock import class_mock, instance_mock, method_mock, property_mock

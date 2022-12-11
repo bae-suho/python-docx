@@ -6,14 +6,14 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.enum.style import WD_STYLE_TYPE
-from docx.image.image import Image
-from docx.opc.constants import RELATIONSHIP_TYPE as RT
-from docx.package import Package
-from docx.parts.document import DocumentPart
-from docx.parts.image import ImagePart
-from docx.parts.story import BaseStoryPart
-from docx.styles.style import BaseStyle
+from docxxx.enum.style import WD_STYLE_TYPE
+from docxxx.image.image import Image
+from docxxx.opc.constants import RELATIONSHIP_TYPE as RT
+from docxxx.package import Package
+from docxxx.parts.document import DocumentPart
+from docxxx.parts.image import ImagePart
+from docxxx.parts.story import BaseStoryPart
+from docxxx.styles.style import BaseStyle
 
 from ..unitutil.cxml import element
 from ..unitutil.file import snippet_text

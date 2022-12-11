@@ -11,7 +11,7 @@ from __future__ import absolute_import, print_function
 
 import pytest
 
-from docx.enum.base import (
+from docxxx.enum.base import (
     alias, Enumeration, EnumMember, ReturnValueOnlyEnumMember,
     XmlEnumeration, XmlMappedEnumMember
 )

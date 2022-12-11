@@ -6,11 +6,11 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.opc.package import OpcPackage
-from docx.opc.packuri import PackURI
-from docx.opc.part import Part, PartFactory, XmlPart
-from docx.opc.rel import _Relationship, Relationships
-from docx.oxml.xmlchemy import BaseOxmlElement
+from docxxx.opc.package import OpcPackage
+from docxxx.opc.packuri import PackURI
+from docxxx.opc.part import Part, PartFactory, XmlPart
+from docxxx.opc.rel import _Relationship, Relationships
+from docxxx.oxml.xmlchemy import BaseOxmlElement
 
 from ..unitutil.cxml import element
 from ..unitutil.mock import (

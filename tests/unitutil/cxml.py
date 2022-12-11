@@ -24,8 +24,8 @@ from pyparsing import (
     Word,
 )
 
-from docx.oxml import parse_xml
-from docx.oxml.ns import nsmap
+from docxxx.oxml import parse_xml
+from docxxx.oxml.ns import nsmap
 
 
 # ====================================================================

@@ -6,7 +6,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 from behave import given, then, when
 
-from docx import Document
+from docxxx import Document
 
 from helpers import test_docx, test_file
 

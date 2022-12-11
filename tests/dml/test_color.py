@@ -8,9 +8,9 @@ from __future__ import (
     absolute_import, division, print_function, unicode_literals
 )
 
-from docx.enum.dml import MSO_COLOR_TYPE, MSO_THEME_COLOR
-from docx.dml.color import ColorFormat
-from docx.shared import RGBColor
+from docxxx.enum.dml import MSO_COLOR_TYPE, MSO_THEME_COLOR
+from docxxx.dml.color import ColorFormat
+from docxxx.shared import RGBColor
 
 from ..unitutil.cxml import element, xml
 

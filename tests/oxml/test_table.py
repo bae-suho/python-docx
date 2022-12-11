@@ -6,9 +6,9 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 import pytest
 
-from docx.exceptions import InvalidSpanError
-from docx.oxml import parse_xml
-from docx.oxml.table import CT_Row, CT_Tc
+from docxxx.exceptions import InvalidSpanError
+from docxxx.oxml import parse_xml
+from docxxx.oxml.table import CT_Row, CT_Tc
 
 from ..unitutil.cxml import element, xml
 from ..unitutil.file import snippet_seq

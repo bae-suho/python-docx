@@ -10,8 +10,8 @@ from __future__ import (
 
 import pytest
 
-from docx.opc.part import XmlPart
-from docx.shared import (
+from docxxx.opc.part import XmlPart
+from docxxx.shared import (
     ElementProxy, Length, Cm, Emu, Inches, Mm, Pt, RGBColor, Twips
 )
 
