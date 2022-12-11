@@ -129,7 +129,13 @@ class Document(ElementProxy):
 
     def replace_word(self, old_value, new_value):
         for paragraph in self.paragraphs:
-            paragraph.text = paragraph.text.replace(old_value, new_value)
+            list = paragraph.text.split()
+            i=0
+            for word in list:
+                if word == old_value:
+                    list[i] = new_value
+                i+= 1
+            paragraph.text = "".join(list)
 
     def count_char(self):
         count = 0
